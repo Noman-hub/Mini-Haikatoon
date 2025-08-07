@@ -1,23 +1,117 @@
-*{padding: 0;
-margin: 0%;
-background-color: rgb(248, 250, 252);
+a {
+    text-decoration: none;
 }
 
-.n-itme{
-    border: 1px solid red;
-    width: 500px;
-    margin: 200px;
+
+/* colors */
+.grey-bg-color {
+    background-color: #F5F7FA;
 }
 
-.rrr{border: 1px solid red;
-    width: 500px;
-    margin-left: 900px;
-    margin-top: -500px;
-    /* margin-top: -700px; */
+.light-grey-text {
+    color: #717171;
 }
 
-.ttt{
-
-
+.lime-text {
+    color: #4CAF4F;
 }
-    
+
+.lime-green-bg-color {
+    background-color: #4CAF4F;
+}
+
+.grey-heading {
+    color: #4D4D4D;
+}
+/* colors */
+
+
+/* custom heading front size */
+.heading-fs {
+    font-size: 3rem;
+}
+
+.big-heading-fs {
+    font-size: 6rem;
+}
+
+
+
+/* header/navbar Starts from here */
+.header {
+    height: 84px;
+}
+
+
+/* hero1 Starts from here */
+.hero1-div1 h1 {
+    max-height: 276px;
+}
+
+.hero1-div2 img {
+    height: 500px;
+}
+
+.hero1-div3 div div {
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 50%;
+}
+
+
+/* hero2 Starts from here */
+.hero2-div2 img {
+    width: 60px;
+}
+
+
+/* hero4 & hero6 Starts from here */
+.hero4 img,
+.hero6 img {
+    width: 580px;
+}
+
+
+/* hero5 Starts from here */
+.hero5 {
+    gap: 23.4rem;
+    padding: 4.1rem 0;
+}
+
+.hero5 img {
+    width: 60px;
+    height: 60px;
+    margin: 1.5rem;
+}
+
+
+/* hero9 Starts from here */
+.hero9 {
+    margin-top: 10rem;
+}
+
+
+
+/* footer Starts from here */
+footer {
+    background-color: #263238;
+    gap: 10%;
+}
+
+footer h3 {
+    margin-bottom: 2rem;
+}
+
+footer a, footer p {
+    color: #F5F7FA;
+}
+
+.f-social-icons a {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #717171;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
